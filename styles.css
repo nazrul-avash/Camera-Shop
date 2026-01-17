@@ -118,9 +118,33 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   margin: 0 auto;
+  gap: 30px;
 
 }
 
+.product-container .product-grid{
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.product-container .product-grid h2{
+  text-align: left;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 6px;
+  
+}
+.product-grid .rating{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.product-container .product-grid h3{
+  font-size: .9rem;
+  letter-spacing: 1.8%;
+
+}
 
 
 
@@ -171,5 +195,10 @@
   width: 100%;
   
   height: auto;
+}
+.products .product-container{
+
+  grid-template-columns: repeat(1,1fr);
+  
 }
  }
